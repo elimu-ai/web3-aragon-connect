@@ -3,7 +3,7 @@ Node.js webapp for displaying information about the elimu.ai Community DAO at ht
 
 ## Run application locally
 
-Install Node.js:
+Install [Node.js](https://nodejs.dev):
 
     brew install node
 
