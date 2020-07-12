@@ -1,12 +1,15 @@
 {
-  "dependencies": {
-    "@aragon/connect": "^0.4.2"
-  },
   "name": "aragon-dao-webapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "https://github.com/elimu-ai/aragon-dao-webapp.git",
   "author": "Nya Elimu <nya@elimu.ai>",
   "license": "MIT",
-  "private": false
+  "private": true,
+  "scripts": {
+    "build": "node app.js"
+  },
+  "dependencies": {
+    "@aragon/connect": "^0.4.2"
+  }
 }
