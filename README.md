@@ -24,3 +24,11 @@ Run the application:
     node app.js
 
 Access the application in your browser: [http://localhost:3000](http://localhost:3000)
+
+## Decentralized Autonomous Organization (DAO)
+
+The [elimu.ai Community DAO](https://mainnet.aragon.org/#/elimuai) is empowered by [Aragon](https://aragon.org). Aragon gives internet communities the power to freely organize and collaborate without borders or intermediaries.
+
+[
+  <img width="320" alt="Powered by Aragon" src="https://wiki.aragon.org/design/artwork/Powered_By/SVG/Powered_By_White.svg">
+](https://mainnet.aragon.org/#/elimuai)
