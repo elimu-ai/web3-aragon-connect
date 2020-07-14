@@ -11,7 +11,7 @@ const server = http.createServer(async (req, res) => {
   res.setHeader('Content-Type', 'text/plain');
 
   // Display information about the DAO
-  res.end(`Apps: ${apps}`);
+  res.end(`apps: ${apps}`);
 });
 
 server.listen(port, hostname, () => {
