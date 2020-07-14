@@ -1,11 +1,11 @@
-const fetchOrganizationData = require('./lib/fetch_organization_data');
+const fetchApps = require('./lib/fetch_apps');
 
 const http = require('http');
 const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer(async (req, res) => {
-  const apps = await fetchOrganizationData();
+  const apps = await fetchApps();
 
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
