@@ -17,7 +17,6 @@ Install [Node.js](https://nodejs.dev):
 
 Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
 
-    brew install yarn
     yarn add @aragon/connect
 
 Run the application:
