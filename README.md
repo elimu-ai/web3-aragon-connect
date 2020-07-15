@@ -18,12 +18,41 @@ Install [Node.js](https://nodejs.dev):
 Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
 
     yarn add @aragon/connect
+    yarn add @aragon/connect-thegraph-tokens
+    yarn add @aragon/connect-thegraph-voting
 
 Run the application:
     
-    node index.js
+    node app.js
 
 Access the application in your browser: [http://localhost:3000](http://localhost:3000)
+
+## Run application on CentOS
+
+Install [Node.js](https://nodejs.dev): https://github.com/nodesource/distributions#installation-instructions-1
+
+    curl -sL https://rpm.nodesource.com/setup_14.x | bash -
+    yum install nodejs
+
+Clone GitHub repository:
+
+    cd ~/.elimu-ai
+    git clone https://github.com/elimu-ai/aragon-dao-webapp.git
+    cd aragon-dao-webapp/
+
+Install [Yarn](https://yarnpkg.com/getting-started/install):
+
+    npm install -g yarn
+
+Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
+
+    yarn add @aragon/connect
+    yarn add @aragon/connect-thegraph-tokens
+    yarn add @aragon/connect-thegraph-voting
+
+Run the application:
+    
+    node app.js
 
 ## Decentralized Autonomous Organization (DAO)
 
