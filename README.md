@@ -17,11 +17,12 @@ Install [Node.js](https://nodejs.dev):
 
 Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
 
+    brew install yarn
     yarn add @aragon/connect
 
 Run the application:
     
-    node app.js
+    node index.js
 
 Access the application in your browser: [http://localhost:3000](http://localhost:3000)
 
