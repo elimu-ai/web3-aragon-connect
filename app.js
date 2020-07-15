@@ -2,11 +2,11 @@ const express = require('express')
 const fetchApps = require('./lib/fetch_apps')
 const http = require('http')
 
-const app = express()
+const server = express()
 const port = 3000
 
 // Display information about the DAO
-app.get('/apps', async (req, res) => {
+server.get('/apps', async (req, res) => {
   console.info(`req.url: "${req.url}"`)
 
   res.setHeader('Content-Type', 'application/json')
@@ -18,9 +18,9 @@ app.get('/apps', async (req, res) => {
 
   // Convert to JSON
   let jsonArray = []
-  apps.forEach((item, i) => {
-    console.debug(`item.name: "${item.name}"`)
-    jsonArray.push(item)
+  apps.forEach((app, i) => {
+    console.debug(`app.name: "${app.name}"`)
+    jsonArray.push(app)
   })
   console.debug(`jsonArray.length: ${jsonArray.length}`)
   let jsonString = JSON.stringify(jsonArray)
@@ -29,6 +29,6 @@ app.get('/apps', async (req, res) => {
   res.send()
 })
 
-app.listen(port, () => {
-  console.info(`App listening at http://localhost:${port}`)
+server.listen(port, () => {
+  console.info(`Server listening at http://localhost:${port}`)
 })
