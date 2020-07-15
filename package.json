@@ -12,6 +12,7 @@
   "dependencies": {
     "@aragon/connect": "^0.4.2",
     "@aragon/connect-thegraph-tokens": "^0.4.2",
+    "@aragon/connect-thegraph-voting": "^0.4.2",
     "express": "^4.17.1"
   }
 }
