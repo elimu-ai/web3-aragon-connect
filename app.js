@@ -6,7 +6,7 @@ const app = express()
 const port = 3000
 
 // Display information about the DAO
-app.get('/', async (req, res) => {
+app.get('/apps', async (req, res) => {
   const apps = await fetchApps()
   res.write(`apps: ${apps}`)
   res.send()
