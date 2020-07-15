@@ -42,7 +42,7 @@ server.get('/token-holders', async (req, res) => {
   // Convert to JSON
   let jsonArray = []
   tokenHolders.forEach((tokenHolder, i) => {
-    console.debug(`tokenHolder.name: "${tokenHolder.name}"`)
+    console.debug(`tokenHolder.address: "${tokenHolder.address}"`)
     jsonArray.push(tokenHolder)
   })
   console.debug(`jsonArray.length: ${jsonArray.length}`)
