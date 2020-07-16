@@ -1,8 +1,12 @@
 # aragon-dao-webapp
 
-Node.js webapp for displaying information about the elimu.ai Community DAO at https://mainnet.aragon.org/#elimuai
+Node.js webapp (REST API) for accessing information about the elimu.ai Community DAO at https://mainnet.aragon.org/#elimuai
 
-The information about the DAO will be fetched from this web server, and displayed in the [webapp](https://github.com/elimu-ai/webapp).
+The information about the DAO will be fetched from this web server via JSON, and displayed in the [webapp](https://github.com/elimu-ai/webapp).
+
+[![Aragon_DAO](https://user-images.githubusercontent.com/15718174/87666388-1e463f80-c79b-11ea-995d-ba9253cab40b.gif)](
+  http://hin.elimu.ai/aragon-dao
+)
 
 Examples of information that will be made available:
   - [Holders](https://mainnet.aragon.org/#/elimuai/0xee45d21cb426420257bd4a1d9513bcb499ff443a/) of the elimu.ai Community Token (ECT)
@@ -26,6 +30,10 @@ Run the application:
     node app.js
 
 Access the application in your browser: [http://localhost:3000](http://localhost:3000)
+
+    /apps
+    /token-holders
+    /votes
 
 ## Run application on CentOS
 
