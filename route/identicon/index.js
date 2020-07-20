@@ -5,16 +5,10 @@ const identiconCanvas = require('../../lib/identicon_canvas')
 
 router.get('/:address', function (req, res) {
   const address = req.params.address;
-  const identiconDataUrl = identiconCanvas(address).toDataURL()
+  const identiconPngBuffer = identiconCanvas(address).toBuffer('image/png')
 
-  let el = `<div style="` +
-           `background-image: url('${identiconDataUrl}');` +
-           `background-size: 100%;` +
-           `width: 24px;` +
-           `height: 24px` +
-           `"></div>`;
-
-  res.send(el)
+  res.setHeader('Content-Type', 'image/png')
+  res.send(identiconPngBuffer)
 })
 
 module.exports = router
