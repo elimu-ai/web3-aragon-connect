@@ -76,6 +76,9 @@ server.get('/votes', async (req, res) => {
   res.send()
 })
 
+const identiconRoute = require('./route/identicon/index');
+server.use('/identicon', identiconRoute);
+
 server.listen(port, () => {
   console.info(`Server listening at http://localhost:${port}`)
 })
