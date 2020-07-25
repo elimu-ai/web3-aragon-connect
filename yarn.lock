@@ -17,6 +17,14 @@
   dependencies:
     "@aragon/connect-core" "*"
 
+"@aragon/connect-finance@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@aragon/connect-finance/-/connect-finance-0.0.3.tgz#82d2e6a7607adeb5840244f9c550e3d1edea50af"
+  integrity sha512-FyQOKJ5LC1eOiHQylxGH1d3WI7o5/8lC+GExZQ0esbBWCWUiB8kKcqiwzqiZTqGvfgI6HGNq9UeGY4C53ShaiQ==
+  dependencies:
+    "@aragon/connect-thegraph" "*"
+    graphql-tag "^2.10.3"
+
 "@aragon/connect-thegraph-tokens@^0.4.2":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@aragon/connect-thegraph-tokens/-/connect-thegraph-tokens-0.4.2.tgz#6b412419515ac22bb44c95efb769237a44daf077"

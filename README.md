@@ -9,9 +9,10 @@ The information about the DAO will be fetched from this web server via JSON, and
 )
 
 Examples of information that will be made available:
+  - [Donations](https://mainnet.aragon.org/#/elimuai/0x25e71ca07476c2a65c289c7c6bd6910079e119e6/) made to the DAO's Finance App
   - [Holders](https://mainnet.aragon.org/#/elimuai/0xee45d21cb426420257bd4a1d9513bcb499ff443a/) of the elimu.ai Community Token (ECT)
   - [Votes](https://mainnet.aragon.org/#/elimuai/0xe3aa64c5ecf9085459326abe66c83d9472e3444a/) created by and cast by the community's contributors
-  - [Payments](https://mainnet.aragon.org/#/elimuai/0x25e71ca07476c2a65c289c7c6bd6910079e119e6/) made to active contributors
+  - [Payments](https://mainnet.aragon.org/#/elimuai/0x25e71ca07476c2a65c289c7c6bd6910079e119e6/) made to community contributors
 
 ## Run application locally
 
@@ -22,16 +23,18 @@ Install [Node.js](https://nodejs.dev):
 Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
 
     yarn add @aragon/connect
+    yarn add @aragon/connect-finance
     yarn add @aragon/connect-thegraph-tokens
     yarn add @aragon/connect-thegraph-voting
 
 Run the application:
-    
+
     node app.js
 
 Access the application in your browser: [http://localhost:3000](http://localhost:3000)
 
     /apps
+    /finance-transactions
     /token-holders
     /votes
 
@@ -55,11 +58,12 @@ Install [Yarn](https://yarnpkg.com/getting-started/install):
 Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
 
     yarn add @aragon/connect
+    yarn add @aragon/connect-finance
     yarn add @aragon/connect-thegraph-tokens
     yarn add @aragon/connect-thegraph-voting
 
 Run the application:
-    
+
     node app.js
 
 ## Decentralized Autonomous Organization (DAO)
