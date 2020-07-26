@@ -68,7 +68,7 @@ Run the application:
 
 ## TEST vs PROD
 
-In production, export an environment variable `PROD` before running the application:
+In production, export an environment variable `NODE_ENV` before running the application:
 
     export NODE_ENV="production"
     node app.js
