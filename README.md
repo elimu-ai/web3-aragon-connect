@@ -66,6 +66,13 @@ Run the application:
 
     node app.js
 
+## TEST vs PROD
+
+In production, export an environment variable `PROD` before running the application:
+
+    export PROD=true
+    node app.js
+
 ## Decentralized Autonomous Organization (DAO)
 
 The [elimu.ai Community DAO](https://mainnet.aragon.org/#/elimuai) is empowered by [Aragon](https://aragon.org). Aragon gives internet communities the power to freely organize and collaborate without borders or intermediaries.
