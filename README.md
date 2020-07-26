@@ -70,7 +70,7 @@ Run the application:
 
 In production, export an environment variable `PROD` before running the application:
 
-    export NODE_ENV=production
+    export NODE_ENV="production"
     node app.js
 
 ## Decentralized Autonomous Organization (DAO)
