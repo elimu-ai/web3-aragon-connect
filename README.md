@@ -5,7 +5,7 @@ Node.js webapp (REST API) for accessing information about the elimu.ai Community
 The information about the DAO will be fetched from this web server via JSON, and displayed in the [webapp](https://github.com/elimu-ai/webapp).
 
 [![Aragon_DAO](https://user-images.githubusercontent.com/15718174/87666388-1e463f80-c79b-11ea-995d-ba9253cab40b.gif)](
-  http://hin.elimu.ai/aragon-dao
+  http://hin.elimu.ai/contributions/aragon-dao
 )
 
 Examples of information that will be made available:
