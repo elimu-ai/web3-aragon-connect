@@ -84,6 +84,13 @@ Show live logs from PM2:
 
     pm2 logs
 
+## TEST vs PROD
+
+In production, export an environment variable `NODE_ENV` before running the application:
+
+    export NODE_ENV="production"
+    node app.js
+
 ## Decentralized Autonomous Organization (DAO)
 
 The [elimu.ai Community DAO](https://mainnet.aragon.org/#/elimuai) is empowered by [Aragon](https://aragon.org). Aragon gives internet communities the power to freely organize and collaborate without borders or intermediaries.
