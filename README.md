@@ -62,9 +62,27 @@ Add [Aragon Connect](https://connect.aragon.org/guides/getting-started):
     yarn add @aragon/connect-thegraph-tokens
     yarn add @aragon/connect-thegraph-voting
 
-Run the application:
+Install PM2 process manager for Node.js for automatically running and restarting app on OS reboot and app crash:
 
-    node app.js
+    npm i -g pm2@latest
+
+Set PM2 configuration. It uses the build script described in package.json. Only necessary to do one time. Make sure you are in the aragon-dao-webapp directory when running this command:
+
+    pm2 start npm --name 'aragon-dao-webapp' -- run build
+
+The server should now be running.
+
+Save the configuration for startup:
+
+    pm2 startup
+
+View app status:
+
+    pm2 status
+
+Show live logs from PM2:
+
+    pm2 logs
 
 ## Decentralized Autonomous Organization (DAO)
 
