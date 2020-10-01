@@ -1,6 +1,6 @@
 # aragon-dao-webapp
 
-Node.js webapp (REST API) for accessing information about the elimu.ai Community DAO at https://mainnet.aragon.org/#elimuai
+Node.js webapp (REST API) for accessing information about the elimu.ai Community DAO at https://client.aragon.org/#elimuai
 
 The information about the DAO will be fetched from this web server via JSON, and displayed in the [webapp](https://github.com/elimu-ai/webapp).
 
@@ -93,8 +93,8 @@ In production, export an environment variable `NODE_ENV` before running the appl
 
 ## Decentralized Autonomous Organization (DAO)
 
-The [elimu.ai Community DAO](https://mainnet.aragon.org/#/elimuai) is empowered by [Aragon](https://aragon.org). Aragon gives internet communities the power to freely organize and collaborate without borders or intermediaries.
+The [elimu.ai Community DAO](https://client.aragon.org/#/elimuai) is empowered by [Aragon](https://aragon.org). Aragon gives internet communities the power to freely organize and collaborate without borders or intermediaries.
 
 [
   <img width="320" alt="Powered by Aragon" src="https://wiki.aragon.org/design/artwork/Powered_By/SVG/Powered_By_White.svg">
-](https://mainnet.aragon.org/#/elimuai)
+](https://client.aragon.org/#/elimuai)
