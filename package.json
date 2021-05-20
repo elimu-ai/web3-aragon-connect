@@ -10,7 +10,7 @@
     "build": "node app.js"
   },
   "dependencies": {
-    "@aragon/connect": "^0.4.2",
+    "@aragon/connect": "^0.7.0",
     "@aragon/connect-finance": "^0.0.3",
     "@aragon/connect-thegraph-tokens": "^0.4.2",
     "@aragon/connect-thegraph-voting": "^0.4.2",
