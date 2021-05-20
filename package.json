@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@aragon/connect": "^0.4.2",
-    "@aragon/connect-finance": "^0.0.3",
+    "@aragon/connect-finance": "^0.7.0",
     "@aragon/connect-thegraph-tokens": "^0.4.2",
     "@aragon/connect-thegraph-voting": "^0.4.2",
     "canvas": "^2.8.0",
