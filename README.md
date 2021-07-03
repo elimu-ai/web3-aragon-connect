@@ -1,4 +1,4 @@
-# aragon-dao-webapp
+# web3-aragon-connect
 
 Node.js webapp (REST API) for accessing information about the elimu.ai Community DAO at https://client.aragon.org/#elimuai
 
